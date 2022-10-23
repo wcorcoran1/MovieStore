@@ -1,9 +1,7 @@
-import { Injectable } from "@angular/core";
-
-
-@Injectable
+// import { Injectable } from "@angular/core";
+import { Movie } from "./movie.model"
 export class MovieServices {
-    private movies: movie[] = [
+    private movies: Movie[] = [
         {title: 'Sleepy Hollow', genre: 'Horror', description: 'Johnny Depp is sent to Sleepy Hollow to solve the case of the Headless Horse Man'},
         {title: 'The Dark Knight', genre: 'Action', description: 'Batman is trying to stop the Joker from destroying Gotham'},
         {title: 'Avengers EndGame', genre: 'Action', description: 'The remaining Avengers go back in time to undo the effects of the Infinity stones and leads to the last showdown between Thanos and the Avengers.'},
