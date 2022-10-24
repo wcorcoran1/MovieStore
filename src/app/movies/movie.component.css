@@ -1,4 +1,32 @@
-.movieList {
+.moviePage{
     display:flex;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
+/* .movieList {
+    display:flex;
+    flex-wrap: wrap;
+    border: 2px solid orange;
+    background-color: violet;
+    width:30vmax;
+}
+
+.movieTitle {
+display: flex;
+background-color: blue;
+width:100vmax;
+}
+
+.movieGenre {
+display: flex;
+width:20vmax;
+}
+
+.moviePrice{
+border: 1px solid black;
+}
+
+.movieDescription {
+    display: flex;
+    background-color: blue;
+    width:100%
+} */

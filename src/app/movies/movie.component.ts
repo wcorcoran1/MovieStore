@@ -17,4 +17,7 @@ export class MovieComponent implements OnInit{
     ngOnInit() {
      this.movies = this.movieService.getMovies();
     }
+    checkout(){
+      console.log("checkout")
+    }
 }

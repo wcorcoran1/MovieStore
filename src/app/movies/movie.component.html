@@ -1,19 +1,22 @@
 <h1>MovieStore</h1>
 <div *ngFor="let movie of movies">
-    <div class="movieList">
+    <div class="moviePage">
     <ul>
+        <div class="movieList">
         <div class="movieTitle">
           <h1>{{movie.title}}</h1>
         </div>
         <div class="movieGenre">
-          <h3>{{movie.genre}}</h3>
+          <h3>genre: {{movie.genre}}</h3>
         </div>
           <div class="moviePrice">
-          <h3>{{movie.price}}</h3>
+          <h3>Price: {{movie.price}}</h3>
           </div>
           <div class="movieDescription">
           <h3>{{movie.description}}</h3> 
           </div> 
+          <button type="button" class="btn btn-primary" (click)="checkout()">checkout</button>
+        </div>
     </ul>
     </div>
 </div>
