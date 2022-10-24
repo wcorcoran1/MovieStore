@@ -8,7 +8,7 @@ import { MovieServices } from '../services/movie.services';
 })
 export class MovieComponent implements OnInit{
 
-
+  movies: any = []
     
     constructor(private movieService: MovieServices){
 
